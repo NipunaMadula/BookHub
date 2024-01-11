@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-------- title ----------->
+    <title>Books</title>
+
+    <!-------- customer style link ----------->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-------- font awesome cdn link --------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+
+    <!------- swipper cdn link ------------>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+
+    <!--------- header section start ------------>
+    <header class="header">
+
+        <div class="header-1">
+            <a href="" class="logo"><i class="fas fa-book"> books</i></a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#featured">Featured</a>
+                <a href="#arrivals">Arrivals</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#blogs">Blogs</a>
+                <a href="products.php">Products</a>
+            </nav>
+
+
+
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="cart.php" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+                <a href="logout.php" class="fa-solid fa-right-from-bracket"></a>
+
+            </div>
+
+        </div>
+
+
+
+    </header>
+
+    <!--------- header section ends ------------>
+
+    <!--------- bottom navbar  ------------>
+
+    <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-app-store"></a>
+
+    </div>
+
+
+    <!-------- bottom navbar start ----------->
+
+    <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-app-store"></a>
+    </div>
+
+
+    <!-------- bottom navbar ends ----------->
+
+    <!-------- login form start ----------->
+
+
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>sign in</h3>
+            <span>email</span>
+            <input type="email" name="" class="box" placeholder="enter your email">
+            <span>password</span>
+            <input type="password" name="" class="box" placeholder="enter your password">
+
+            <div class="check-box">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forgot password ? <a href="">click here</a></p>
+            <p>don't have an account ? <a href="">create one</a></p>
+        </form>
+    </div>
+
+    <!-------- login form ends ----------->
+
+
+    <!-------- home section start ----------->
+
+    <section class="home" id="home">
+
+        <div class="row">
+
+            <div class="content">
+                <h3>upto 55% offers</h3>
+                <p>Over the past 50 years, we have become a prestigious and leading network of bookshops in Sri Lanka, expanding our business activities both in terms of quality and quantity.</p>
+                <a href="products.php" class="btn">shop now</a>
+            </div>
+
+            <div class="swiper books-list">
+
+                <div class="swiper-wrapper">
+                    <a href="products.php" class="swiper-slide"><img src="./image/book-1.png" alt=""></a>
+                    <a href="products.php" class="swiper-slide"><img src="./image/book-2.png" alt=""></a>
+                    <a href="products.php" class="swiper-slide"><img src="./image/book-3.png" alt=""></a>
+                    <a href="products.php" class="swiper-slide"><img src="./image/book-4.png" alt=""></a>
+                    <a href="products.php" class="swiper-slide"><img src="./image/book-5.png" alt=""></a>
+                    <a href="products.php" class="swiper-slide"><img src="./image/book-6.png" alt=""></a>
+                </div>
+
+                <img src="./image/stand.png" class="stand" alt="">
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-------- home section ends  ----------->
+
+    <!-------- icons section start  ----------->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-plane"></i>
+            <div class="content">
+                <h3>over payment</h3>
+                <p>over payment Rs200/=</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>secure payment</h3>
+                <p>secure payment Rs300/=</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>24/7 support</h3>
+                <p>call us anythin</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-------- icons section ends  ----------->
+
+    <!-------- featured section start  ----------->
+
+    <section class="featured" id="featured">
+
+        <div class="heading"><span>featured books</span></div>
+
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="products.php" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="products.php" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/book-1.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>featured book</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <a href="products.php" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="products.php" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="products.php" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/book-2.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>featured book</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <a href="products.php" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="products.php" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="products.php" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/book-3.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>featured book</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <a href="products.php" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="products.php" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="products.php" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/book-4.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>featured book</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <a href="products.php" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="products.php" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="products.php" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/book-5.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>featured book</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <a href="products.php" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="products.php" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="products.php" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/book-6.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>featured book</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <a href="products.php" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="products.php" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="products.php" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/book-7.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>featured book</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <a href="products.php" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="products.php" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="products.php" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/book-8.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>featured book</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <a href="products.php" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="products.php" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="products.php" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/book-9.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>featured book</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <a href="products.php" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="products.php" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="products.php" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/book-10.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>featured book</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <a href="products.php" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="products.php" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="products.php" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/book-11.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>featured book</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <a href="products.php" class="btn">add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+
+
+    <!-------- featured section ends  ----------->
+
+
+    <!-------- news letter section start  ----------->
+
+    <section class="newsletter">
+
+        <form action="">
+
+            <h3>Receive The Latest <br> Offers & Updates Via Email</h3>
+            <h1>Signup To Be The First To Hear About Exclusive <br>  Deals, Special Offers And Upcoming Collections</h1>
+            <input type="email" name="" placeholder="enter your email" class="box">
+            <input type="submit" value="subcribe" class="btn">
+        </form>
+    </section>
+
+
+
+    <!-------- news letter section ends  ----------->
+
+
+    <!-------- arrivals section start  ----------->
+
+    <section class="arrivals" id="arrivals">
+
+        <div class="heading"><span>new arrivals</span></div>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="products.php" class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/book-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="products.php" class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/book-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="products.php" class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/book-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="products.php" class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/book-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="products.php" class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/book-5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+
+                <a href="products.php" class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/book-6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="products.php" class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/book-7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="products.php" class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/book-8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="products.php" class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/book-9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="products.php" class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/book-10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">Rs200/= <span>Rs300/=</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------- arrivals section ends  ----------->
+
+    <!-------- deal section start  ----------->
+
+    <section class="deal">
+
+        <div class="content">
+            <h3>deal of the day</h3>
+            <h1>upto 50% offers</h1>
+            <p>
+                We offer a vast collection of Sri Lankan and foreign publications covering a wide range of disciplines to cater to the diverse needs of our readership, from children to academics.
+            </p>
+            <a href="products.php" class="btn">shop now</a>
+        </div>
+
+        <div class="image">
+            <img src="image/deal-img.png" alt="">
+        </div>
+
+    </section>
+
+
+
+
+    <!-------- deal section ends  ----------->
+
+
+    <!-------- review section start  ----------->
+
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading"><span>client's reviews</span></h1>
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./image/pic-1.png" alt="">
+                    <h3>User</h3>
+                    <p>
+                        I had a great time at your store in Matara. You guys surpassed all expectations regarding Books Selling. I can’t wait to go back!
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/pic-2.png" alt="">
+                    <h3>User</h3>
+                    <p>
+                        I am disappointed in your staff. I had a question regarding Books selling, and they told me they had no idea and were disrespectful.
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/pic-3.png" alt="">
+                    <h3>User</h3>
+                    <p>
+                        I purchased Love me not, and it stopped loading after a month. I contacted customer service, and they haven’t got back to me. I’m upset and would not recommend purchasing from them.
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/pic-4.png" alt="">
+                    <h3>User</h3>
+                    <p>
+                        A wonderful organization! Excellent customer service throughout the entire process. The team is knowledgeable and goes above and beyond at every turn. Without any reservations, I’d recommend their services.
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/pic-5.png" alt="">
+                    <h3>User</h3>
+                    <p>
+                        Great experience and a great product/service. I would return any day because of BOOKS and their kind team.
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/pic-6.png" alt="">
+                    <h3>User</h3>
+                    <p>
+                        The service was awful! They ignored our requests and seemed annoyed when we asked to change what they initially brought us.
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------- review section ends  ----------->
+
+
+    <!-------- blog section start  ----------->
+
+    <section class="blogs" id="blogs">
+
+        <div class="heading"><span>our blogs</span></div>
+
+        <div class="swiper blog-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/blog-1.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Blog Title</h3>
+                        <p>
+                            Fitness seems to be complicated for average people. Nerd Fitness describes its content – by mentioning – fitness for “average Joes”.
+
+
+                        </p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/blog-2.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Blog Title</h3>
+                        <p>
+                            For a personal brand like Dr. Axe’s, showcasing the authority is very important. So, describing the qualifications, and mission is very important.
+                        </p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/blog-3.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Blog Title</h3>
+                        <p>
+                            They’ve showed how old their brand is by including the date of their inception. In case of online brands, old equates to trustworthiness.
+                        </p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/blog-4.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Blog Title</h3>
+                        <p>
+                            It describes the content on their blog and also presents their USP/mission – “We aim to add a human element to technology”.
+                        </p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./image/blog-5.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Blog Title</h3>
+                        <p>
+                            They started their blog description with a question that demands attention, and then described what their website is all about.
+                        </p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-------- blog section ends  ----------->
+
+    <!-------- footer section start  ----------->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our locations</h3>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Matara</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Galle</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Ja-Ela</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Kandy</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Mannar</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Hambantota</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>home</a>
+                <a href=""><i class="fas fa-arrow-right"></i>freatured</a>
+                <a href=""><i class="fas fa-arrow-right"></i>arrivals</a>
+                <a href=""><i class="fas fa-arrow-right"></i>blogs</a>
+
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>account info</a>
+                <a href=""><i class="fas fa-arrow-right"></i>ordered items</a>
+                <a href=""><i class="fas fa-arrow-right"></i>privacy policy</a>
+                <a href=""><i class="fas fa-arrow-right"></i>payment method</a>
+                <a href=""><i class="fas fa-arrow-right"></i>our services</a>
+            </div>
+
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href=""><i class="fas fa-phone"></i>xxxxxxxxxxxxx</a>
+                <a href=""><i class="fas fa-phone"></i>xxxxxxxxxxxxx</a>
+                <a href=""><i class="fas fa-envelope"></i>xxxxxxxxxx@gmail.com</a>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-------- footer section ends  ----------->
+
+
+
+
+
+
+
+    <!---- swiper cdn link ---------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+    <!------- customer script link --------->
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
